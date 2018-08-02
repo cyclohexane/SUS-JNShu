@@ -1,0 +1,52 @@
+html {
+	font-size: 125%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrap {
+	width: 20.6rem;
+	height: 27rem;
+	border: .02rem solid #CCC;
+	margin: 0 auto;
+	padding: .5rem;
+}
+
+.block-con {
+	width: 20.6rem;
+	height: 19.8rem;
+}
+
+.block-con div {
+	width: 6rem;
+	height: 6rem;
+	float: left;
+	margin-top: .6rem;
+	margin-left: .6rem;
+	background-color: rgb(255, 166, 0);
+	border-radius: .6rem;
+}
+
+.func {
+	width: 20rem;
+	height: 7rem;
+}
+
+.func div {
+	width: 20rem;
+	height: 2.5rem;
+	margin-top: 1rem;
+	border: .05rem solid rgb(255, 166, 0);
+	text-align: center;
+	line-height: 2.5rem;
+	color: rgb(255, 166, 0);
+}
+
+.func div:hover {
+	color: #FFF;
+	background-color: rgb(255, 166, 0);
+	cursor: pointer;
+}
